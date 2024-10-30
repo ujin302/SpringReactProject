@@ -1,7 +1,5 @@
 package spring.conf;
 
-import javax.annotation.PostConstruct;
-
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -66,10 +64,5 @@ public class SpringConfiguration {
       DataSourceTransactionManager dataSourceTransactionManager = 
             new DataSourceTransactionManager(dataSource());
       return dataSourceTransactionManager;
-   }
-   
-   @PostConstruct
-   public void init() {
-       System.setProperty("https.protocols", "TLSv1.2");
    }
 }
