@@ -50,7 +50,6 @@ class BoardListController {
 	private BoardServiceInfc boardServiceInfc;
 	
 	@GetMapping(value = "/list")
-	@ResponseBody
 	public ArrayList<BoardDTO> list() {
 		ArrayList<BoardDTO> list = boardServiceInfc.getList();
 		for (BoardDTO boardDTO : list) {
