@@ -34,14 +34,38 @@
 ![로그인 실패](https://github.com/user-attachments/assets/cd6c3b67-4771-4137-8419-539c65b1d877)로그인 실패 팝업 | ![로그인 실패 2](https://github.com/user-attachments/assets/722b68c8-0b76-4ffa-913a-2dc41d1d3a25)로그인 실패 문구 |
 ---|---|
 
-### 2. **도착지(강의실) 지정**
-- 사용자가 원하는 강의실 정보(건물, 층, 호수) 선택
-- 강의실 확인창에서 '강의실로 이동' 버튼 클릭 시, 길안내 시
+
+### 2. **로그인 상태에 따른 메뉴바 동적 변경**
+- 기존 ‘로그인’에서 ‘로그아웃’ 으로 기능 변경
+- 상단바에 계정 이름 노출되며 메인화면으로 자동 이동
 
 
+![로그인 전](https://github.com/user-attachments/assets/c215be11-8146-4cc2-ae26-50b9f9ad83d0) 로그인 전 메인화면 | ![로그인성공](https://github.com/user-attachments/assets/7c55630f-73b6-4743-9d4b-8c7991d149e3)로그인 후 메인화면 |
+---|---|
 
-### 3. **도착지(강의실) 길안내**
-- 외부지도에서 GPS 기반 사용자의 현위치 표현하며 사용자가 원하는 건물까지 길안내
-- 건물에 도착하면 내부지도 화면으로 전환되며 강의실까지 길 안내
-![외부](https://github.com/user-attachments/assets/185c3d09-4bea-4f52-a9ac-ee22d92a3b19)
-![내부](https://github.com/user-attachments/assets/e6ea1cb7-cb33-4423-913e-371daca9bc6e)
+
+### 3. **게시물 목목**
+- ‘게시물’ 메뉴 클릭 시, 게시물 목록 출력
+- 로그인 전에 ‘게시물 작성’ 버튼 클릭 시, ‘로그인 후, 사용 가능한 기능입니다.’ 팝업 발생
+- 로그인 판단은 `react-session-api`  활용함
+
+![게시물 목록](https://github.com/user-attachments/assets/29d8dd61-3bc8-478b-af8d-f593fb8cd41b)게시물 목록 | ![회원 기능](https://github.com/user-attachments/assets/f21b3e48-9f20-4b34-8116-572b2fb2cf44)회원 기능 | 
+---|---|
+
+
+### 4. **게시물 작성**
+- 제목과 내용을 입력하지 않고 ‘작성’ 버튼 클릭 시, ‘필수 입력 사항을 확인하세요.’ 문구 노출
+- 제목과 내용 모두 입력 시, 게시물 작성 가능
+- 게시물 작성 성공 시, 게시물 목록 화면으로 이동하며 가장 마지막에 게시물 확인 가능
+
+
+![유효성 검사](https://github.com/user-attachments/assets/624d9537-05ce-4b6e-b3a5-286f499678b9)유효성 검사 | ![게시물 작성](https://github.com/user-attachments/assets/59572b6b-89f5-4cd3-a03f-5d38170dfcfa) 게시물 작성 | ![작성 성공](https://github.com/user-attachments/assets/2a60161c-f767-489b-a7c9-3e2c4f3da057) 게시물 작성 성공
+---|---|---|
+
+
+### 5. 게시물 상세보기
+- 게시물 상세보기는 로그인 전에도 확인 가능
+
+
+![로그인 후](https://github.com/user-attachments/assets/3f018cc5-21a2-43e3-a869-2a5e05817319)로그인 전 | ![로그인 전](https://github.com/user-attachments/assets/88056c1a-5609-4e0a-9e7a-befc42207fdb)로그인 후 |
+---|---|
