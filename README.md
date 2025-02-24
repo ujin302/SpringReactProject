@@ -28,7 +28,7 @@
 - 로그인 실패 시, 실패 팝업 발생과 함께 실패 문구 ‘로그인 정보가 올바르지 않습니다.’ 노출
 
 ![로그인](https://github.com/user-attachments/assets/563f1523-c095-4c68-b037-a023816537cf) | ![유효성검사](https://github.com/user-attachments/assets/b536e3ff-1c0e-49c4-8009-ff33ed7b2dad)
-작
+작 |
 
 ### 2. **도착지(강의실) 지정**
 - 사용자가 원하는 강의실 정보(건물, 층, 호수) 선택
