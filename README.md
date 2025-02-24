@@ -26,10 +26,13 @@
 - ‘로그인’ 메뉴 클릭 시, 로그인 화면 출력
 - 아이디와 비밀번호 유효성 검사
 - 로그인 실패 시, 실패 팝업 발생과 함께 실패 문구 ‘로그인 정보가 올바르지 않습니다.’ 노출
-| ![로그인](https://github.com/user-attachments/assets/563f1523-c095-4c68-b037-a023816537cf)    | ![유효성검사](https://github.com/user-attachments/assets/b536e3ff-1c0e-49c4-8009-ff33ed7b2dad)|
-| ---------- | ---------------------------------------------- |
 
 
+![로그인](https://github.com/user-attachments/assets/563f1523-c095-4c68-b037-a023816537cf)
+![유효성검사](https://github.com/user-attachments/assets/b536e3ff-1c0e-49c4-8009-ff33ed7b2dad)|
+
+![](https://velog.velcdn.com/images/hsh111366/post/fcc2fb0d-d8aa-43b7-ab8c-d6656b811a17/image.png)1층에서 본 모습 👀 | ![](https://velog.velcdn.com/images/hsh111366/post/ddc0ee11-47bb-4223-984a-22f8cf156bf9/image.png)2층에서 본 모습 👀 | ![](https://velog.velcdn.com/images/hsh111366/post/8c585428-8a27-4bc5-8f78-26bccb5a2466/image.png)굿즈들 🎁
+---|---|---|
 
 ### 2. **도착지(강의실) 지정**
 - 사용자가 원하는 강의실 정보(건물, 층, 호수) 선택
