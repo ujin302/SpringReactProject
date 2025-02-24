@@ -28,8 +28,11 @@
 - 로그인 실패 시, 실패 팝업 발생과 함께 실패 문구 ‘로그인 정보가 올바르지 않습니다.’ 노출
 
 
-![로그인](https://github.com/user-attachments/assets/563f1523-c095-4c68-b037-a023816537cf)1층에서 본 모습 👀 | ![유효성검사](https://github.com/user-attachments/assets/b536e3ff-1c0e-49c4-8009-ff33ed7b2dad)2층에서 본 모습 👀 | ![](https://velog.velcdn.com/images/hsh111366/post/8c585428-8a27-4bc5-8f78-26bccb5a2466/image.png)굿즈들 🎁
----|---|---|
+![로그인](https://github.com/user-attachments/assets/563f1523-c095-4c68-b037-a023816537cf)로그인화면 | ![유효성검사](https://github.com/user-attachments/assets/b536e3ff-1c0e-49c4-8009-ff33ed7b2dad)유효성 검사 |
+---|---|
+
+![로그인 실패](https://github.com/user-attachments/assets/cd6c3b67-4771-4137-8419-539c65b1d877)로그인 실패 팝업 | ![로그인 실패 2](https://github.com/user-attachments/assets/722b68c8-0b76-4ffa-913a-2dc41d1d3a25)로그인 실패 문구 |
+---|---|
 
 ### 2. **도착지(강의실) 지정**
 - 사용자가 원하는 강의실 정보(건물, 층, 호수) 선택
